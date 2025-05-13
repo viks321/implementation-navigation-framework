@@ -40,7 +40,7 @@
 
         <!-- Create Account Text -->
         <TextView
-            android:id="@+id/createAccount"
+            android:id="@+id/createAccountTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="CREATE ACCOUNT"
@@ -63,7 +63,7 @@
             android:fontFamily="@font/nunito_regular"
             android:textSize="25sp"
             android:textStyle="bold"
-            app:layout_constraintTop_toBottomOf="@id/createAccount"
+            app:layout_constraintTop_toBottomOf="@id/createAccountTxt"
             app:layout_constraintBottom_toTopOf="@id/editEmail"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
@@ -89,7 +89,7 @@
                 android:textColor="@color/text_input_hint_color"
                 android:textColorHint="@color/hintGray"
                 android:textSize="12sp"
-                android:drawableStart="@drawable/user_icon"
+                android:drawableStart="@drawable/email_icon"
                 android:inputType="textEmailAddress"
                 android:drawableTint="@color/text_input_hint_color"
                 android:drawablePadding="10dp"

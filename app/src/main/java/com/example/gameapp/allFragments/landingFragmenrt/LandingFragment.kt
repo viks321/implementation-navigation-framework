@@ -1,4 +1,4 @@
-package com.example.gameapp.allFragments
+package com.example.gameapp.allFragments.landingFragmenrt
 
 import android.os.Bundle
 import android.view.LayoutInflater
