@@ -12,7 +12,6 @@
     <color name="transparent">#80455A64</color>
     <color name="green_color">#006400</color>
 
-    <!-- res/values/colors.xml -->
     <color name="yellow">#FFC107</color>
     <color name="darkBackground">#1F1F29</color>
     <color name="cardBackground">#2A2A38</color>
