@@ -39,11 +39,14 @@
         app:layout_constraintVertical_chainStyle="packed">
 
         <!-- Create Account Text -->
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
             android:id="@+id/createAccountTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="CREATE ACCOUNT"
+            android:gravity="center_vertical"
+            android:drawableStart="@drawable/account"
+            android:drawableTint="@color/yellow"
             android:fontFamily="@font/nunito_medium"
             android:textColor="#BDBDBD"
             android:textSize="20sp"
